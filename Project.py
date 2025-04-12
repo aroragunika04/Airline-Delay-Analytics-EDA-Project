@@ -6,7 +6,7 @@ from statsmodels.stats.weightstats import ztest
 import warnings
 warnings.filterwarnings('ignore')
 #Loading Dataset
-df = pd.read_excel(r"C:\Users\Gunika\OneDrive\Desktop\work\Notes\ot_delaycause1_DL\Airline_Delay_Cause.xlsx")
+df = pd.read_excel("Airline_Delay_Cause.xlsx")
 
 #Columns and their data types
 cols = df.info()
